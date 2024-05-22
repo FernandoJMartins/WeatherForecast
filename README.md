@@ -1,6 +1,6 @@
 # WeatherForecast
 
-**WeatherForecast** é uma aplicação web simples que permite ao usuário consultar a previsão do tempo de uma localidade especificada. A aplicação utiliza a API do OpenWeatherMap para buscar os dados meteorológicos.
+**WeatherForecast** é uma aplicação web simples que permite ao usuário consultar a temperatura atual de uma localidade especificada. A aplicação utiliza a API do OpenWeatherMap para buscar os dados meteorológicos.
 
 ## Funcionalidades
 - Busca pela previsão do tempo para uma localidade especificada.
