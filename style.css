@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color: #222222;
+    background-color: #183908;;
     color:white;
     display: flex;
     justify-content: center;
@@ -15,9 +15,10 @@ body{
 }
 
 main{
-    background-color: #161616;
+    background-color:  rgb(34, 84, 11);
     padding: 2rem;
     border-radius: 10px;
+    border: 0.2px groove rgb(15, 89, 0);
 }
 
 
@@ -48,6 +49,7 @@ main > h1{
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    border: 1px solid rgb(15, 89, 0);
 }
 
 #btn:hover{
@@ -55,11 +57,18 @@ main > h1{
 }
 
 
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
 input{
     padding: 0.4rem;
     border: none;
     border-radius: 5px;
-    margin-right: 0.5rem;
+    width: 100%;
 }
 
 img{
@@ -69,4 +78,22 @@ img{
 
 #temp{
     font-size: 2rem;
+}
+
+p {
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+#city-name {
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+#time {
+    margin-top: 35px;
+}
+
+#wind, #humidity, img {
+    margin-top: 10px;
 }
