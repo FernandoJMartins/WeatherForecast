@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color: #183908;;
+    background-color:  #415d43;
     color:white;
     display: flex;
     justify-content: center;
@@ -15,7 +15,7 @@ body{
 }
 
 main{
-    background-color:  rgb(34, 84, 11);
+    background-color: #111d13;
     padding: 2rem;
     border-radius: 10px;
     border: 0.2px groove rgb(15, 89, 0);
@@ -96,4 +96,34 @@ p {
 
 #wind, #humidity, img {
     margin-top: 10px;
+}
+
+@media screen and (max-width: 768px){
+    #weather{
+        flex-direction: column;
+        gap: 1.5rem;
+        align-items: center;
+    }
+    #time{
+        margin-top: 13px;
+    }
+}
+
+
+#banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#github {
+    margin-top: 10px;
+    font-size: 1rem;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+#title {
+    font-family: 'Edu AU VIC WA NT Pre';
 }

@@ -62,7 +62,7 @@ form?.addEventListener('submit', async (event: Event) => {
             <h1 id="temp">${infos.temp}°C</h1>    
             <p id="time">Timezone: ${localTime}</p> <!-- Mostra a hora local formatada -->
         </div>
-        <div>
+        <div id='icon'>
             <img id="img" src="${infos.icone}">
             <p id="humidity">Humidity: ${infos.humidity}%</p>
             <p id="wind">Wind: ${infos.wind}m/s</p> 

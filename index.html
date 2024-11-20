@@ -5,21 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather Forecast</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <main>
-        <h1>Weather Forecast</h1>
+    <div id="banner">
+        <main>
+            <h1 id="title">Weather Now</h1>
 
-        <section>
-            <form>
-                <input type="text" name="city" size="40" id="city" placeholder="Enter city name">
-                <button type="submit" id="btn">Search</button>
-            </form>
-        </section>
+            <section>
+                <form>
+                    <input type="text" name="city" size="40" id="city" placeholder="Enter city name">
+                    <button type="submit" id="btn">Search</button>
+                </form>
+            </section>
 
-        <section id="weather">
-        </section>
-    </main>
+            <section id="weather">
+            </section>
+        </main>
+        <h1 id="github" onclick='window.location.href="https://github.com/FernandoJMartins/WeatherForecast"'>Github</h1>
+    </div>
     <script src="js/index.js"></script>
 </body>
 </html>
